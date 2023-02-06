@@ -4,13 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a5bfe665-2225-4242-8e9b-5ef60ccd23fa" name="Changes" comment="Completing Section 11.151: Abstract Classes Part 2">
-      <change afterPath="$PROJECT_DIR$/src/crg/rla/section11150/Horse.java" afterDir="false" />
+    <list default="true" id="a5bfe665-2225-4242-8e9b-5ef60ccd23fa" name="Changes" comment="Completing Section 11.152: Abstract Classes Part 3">
+      <change afterPath="$PROJECT_DIR$/src/crg/rla/section11153/Earphones.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/crg/rla/section11153/Iceblock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/crg/rla/section11153/OrderItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/crg/rla/section11153/Pie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/crg/rla/section11153/ProductForSale.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/crg/rla/section11153/Store.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/crg/rla/section11150/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/crg/rla/section11150/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/crg/rla/section11150/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/crg/rla/section11150/Dog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/crg/rla/section11150/Fish.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/crg/rla/section11150/Fish.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/crg/rla/section11150/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/crg/rla/section11150/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +53,7 @@
       <recent name="crg.rla.section11150" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Store">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="crg.rla.section11150.Main" />
       <module name="Section11-AbstractionAndGeneralization" />
@@ -66,8 +67,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Store" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="crg.rla.section11153.Store" />
+      <module name="Section11-AbstractionAndGeneralization" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="crg.rla.section11153.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Store" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -102,7 +117,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675662850833</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Completing Section 11.152: Abstract Classes Part 3">
+      <created>1675664083634</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1675664083634</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -120,6 +142,7 @@
     <MESSAGE value="Initial Commit - attempt with gitignore" />
     <MESSAGE value="Completing Section 11.150: Abstract Classes Part 1" />
     <MESSAGE value="Completing Section 11.151: Abstract Classes Part 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Completing Section 11.151: Abstract Classes Part 2" />
+    <MESSAGE value="Completing Section 11.152: Abstract Classes Part 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Completing Section 11.152: Abstract Classes Part 3" />
   </component>
 </project>
