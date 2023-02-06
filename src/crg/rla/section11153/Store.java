@@ -7,6 +7,15 @@ public class Store {
     private ArrayList<OrderItem> shoppingCart =
             new ArrayList<>(10);
 
+    public static void main(String[] args) {
+        Store countUp = new Store();
+        countUp.addOrder(new Earphones("BOSE"), 2);
+        countUp.printOrder();
+        countUp.addOrder(new Iceblock("Tip-top"), 1);
+        countUp.addOrder(new Pie("Big Ben"), 3);
+        countUp.printOrder();
+    }
+
     public void addOrder(ProductForSale product, int quantity) {
         shoppingCart.add(new OrderItem(product, quantity));
         System.out.println(product.getClass().getSimpleName() +
@@ -27,12 +36,4 @@ public class Store {
                 "Total", totalCost);
     }
 
-    public static void main(String[] args) {
-        Store countUp = new Store();
-        countUp.addOrder(new Earphones("BOSE"), 2);
-        countUp.printOrder();
-        countUp.addOrder(new Iceblock("Tip-top"), 1);
-        countUp.addOrder(new Pie("Big Ben"), 3);
-        countUp.printOrder();
-    }
 }

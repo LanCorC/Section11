@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a5bfe665-2225-4242-8e9b-5ef60ccd23fa" name="Changes" comment="Completing Section 11.152: Abstract Classes Part 3">
-      <change afterPath="$PROJECT_DIR$/src/crg/rla/section11153/Earphones.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/crg/rla/section11153/Iceblock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/crg/rla/section11153/OrderItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/crg/rla/section11153/Pie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/crg/rla/section11153/ProductForSale.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/crg/rla/section11153/Store.java" afterDir="false" />
+    <list default="true" id="a5bfe665-2225-4242-8e9b-5ef60ccd23fa" name="Changes" comment="Completing Section 11.153: Abstract Classes Challenge Part 1&#10;&#10;My complete implementation! Quite proud of this one.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/crg/rla/section11153/Store.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/crg/rla/section11153/Store.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,7 +119,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675664083634</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Completing Section 11.153: Abstract Classes Challenge Part 1&#10;&#10;My complete implementation! Quite proud of this one.">
+      <created>1675684364003</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1675684364003</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -143,6 +145,7 @@
     <MESSAGE value="Completing Section 11.150: Abstract Classes Part 1" />
     <MESSAGE value="Completing Section 11.151: Abstract Classes Part 2" />
     <MESSAGE value="Completing Section 11.152: Abstract Classes Part 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Completing Section 11.152: Abstract Classes Part 3" />
+    <MESSAGE value="Completing Section 11.153: Abstract Classes Challenge Part 1&#10;&#10;My complete implementation! Quite proud of this one." />
+    <option name="LAST_COMMIT_MESSAGE" value="Completing Section 11.153: Abstract Classes Challenge Part 1&#10;&#10;My complete implementation! Quite proud of this one." />
   </component>
 </project>
