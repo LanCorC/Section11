@@ -4,19 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a5bfe665-2225-4242-8e9b-5ef60ccd23fa" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Section11-AbstractionAndGeneralization.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/crg/rla/Main.java" afterDir="false" />
+    <list default="true" id="a5bfe665-2225-4242-8e9b-5ef60ccd23fa" name="Changes" comment="Initial Commit - attempt with gitignore">
+      <change afterPath="$PROJECT_DIR$/src/crg/rla/section11150/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/crg/rla/section11150/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/crg/rla/section11150/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/crg/rla/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+    </option>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -52,6 +55,14 @@
       <option name="presentableId" value="Default" />
       <updated>1675574148977</updated>
     </task>
+    <task id="LOCAL-00001" summary="Initial Commit - attempt with gitignore">
+      <created>1675656098696</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1675656098696</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -64,5 +75,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial Commit - attempt with gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit - attempt with gitignore" />
   </component>
 </project>
