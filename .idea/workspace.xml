@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a5bfe665-2225-4242-8e9b-5ef60ccd23fa" name="Changes" comment="Completing Section 11.158: Interfaces since JDK8 (default methods, public static methods)">
+    <list default="true" id="a5bfe665-2225-4242-8e9b-5ef60ccd23fa" name="Changes" comment="Completing Section 11.159: Interfaces since JDK8 (public static, private methods)&#10;&#10;Beefy!">
+      <change afterPath="$PROJECT_DIR$/src/crg/rla/section11161/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/crg/rla/section11161/Mappable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/crg/rla/section11161/Park.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/crg/rla/section11161/River.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/crg/rla/section11155/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/crg/rla/section11155/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/crg/rla/section11155/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/crg/rla/section11155/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +24,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -49,7 +52,7 @@
       <recent name="crg.rla.section11150" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.crg.rla.section11155.Test">
+  <component name="RunManager" selected="Application.crg.rla.section11161.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="crg.rla.section11150.Main" />
       <module name="Section11-AbstractionAndGeneralization" />
@@ -102,12 +105,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="crg.rla.section11161.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="crg.rla.section11161.Main" />
+      <module name="Section11-AbstractionAndGeneralization" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="crg.rla.section11161.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.crg.rla.section11161.Main" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.crg.rla.section11155.Test" />
         <item itemvalue="Application.crg.rla.section11155.Main" />
         <item itemvalue="Application.Store" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -190,7 +207,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675749065390</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Completing Section 11.159: Interfaces since JDK8 (public static, private methods)&#10;&#10;Beefy!">
+      <created>1675761703878</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1675761703878</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -215,6 +239,7 @@
     <MESSAGE value="Completing Section 11.156: Interfaces Part 2" />
     <MESSAGE value="Completing Section 11.157: Interfaces Part 3" />
     <MESSAGE value="Completing Section 11.158: Interfaces since JDK8 (default methods, public static methods)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Completing Section 11.158: Interfaces since JDK8 (default methods, public static methods)" />
+    <MESSAGE value="Completing Section 11.159: Interfaces since JDK8 (public static, private methods)&#10;&#10;Beefy!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Completing Section 11.159: Interfaces since JDK8 (public static, private methods)&#10;&#10;Beefy!" />
   </component>
 </project>
