@@ -28,20 +28,18 @@ public interface Mappable {
 
     String usage(); //**personal addition, for 'usage'
 
-    default void toJSON() {
-        StringBuilder project = new StringBuilder(30);
-        project.append(String.format("\"type\": \"%s\"", geometryType()));
-        project.append(String.format(", \"label\": \"%s (%s)\"",
-                label(), usage()));
-        project.append(String.format(", \"marker\": \"%s\"", iconType()));
-        project.append(String.format(", \"usage\": \"%s\"", usage()));
-        System.out.printf(JSON_PROPERTY, project);
+    default String toJSON() {
+//        StringBuilder project = new StringBuilder(30);
+//        project.append(String.format("\"type\": \"%s\"", geometryType()));
+//        project.append(String.format(", \"label\": \"%s (%s)\"",
+//                label(), usage()));
+//        project.append(String.format(", \"marker\": \"%s\"", iconType()));
+//        project.append(String.format(", \"usage\": \"%s\"", usage()));
+        return """
+                "type": "%s", "label": "%s (%s)", "marker": "%s", "usage": "%s" """.formatted(geometryType(), label(), usage(), iconType(), usage());
     }
 
     static void printProperties(Mappable item) {
-        System.out.println("Class: " + item.getClass().getSimpleName() +
-                ".");
-        System.out.print("Contents...");
-        item.toJSON();
+        System.out.printf(JSON_PROPERTY, item.toJSON());
     }
 }
